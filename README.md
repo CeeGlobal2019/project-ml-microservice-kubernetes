@@ -40,3 +40,43 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+1) Fire up your favourite console & clone this repo somewhere:
+
+❍ git clone https://github.com/CeeGlobal2019/project-ml-microservice-kubernetes.git
+
+2) Navigate project-ml-microservice-kubernetes 
+to directory:
+
+❍ cd project-ml-microservice-kubernetes
+
+3) Install python and create a virtual environment and activate it:
+
+❍ make setup
+
+4) Install the project dependencies:
+
+❍ make install
+
+5) Lint the project files:
+
+❍ make lint
+
+6) Build a docker image for the app and start the app in a docker container:
+
+❍ ./run_docker.sh
+
+7) Make a prediction from the app running in the Docker container:
+
+❍ ./make_prediction.sh
+
+8) Upload the docker image to your Docker hub account. Note you'll have to edit the script and change the Docker ID to yours:
+
+❍ ./upload_docker.sh
+
+9) Run the service in a kubernetes cluster. 
+
+❍ ./run_kubernetes.sh
+
+10) Get a prediction from the app running in the Kubernetes Cluster:
+
+❍ ./make_prediction.sh
