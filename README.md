@@ -40,6 +40,9 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+# PROJECT STEPS:
+
 1) Clone the project repository:
 
 ❍ git clone https://github.com/CeeGlobal2019/project-ml-microservice-kubernetes.git
